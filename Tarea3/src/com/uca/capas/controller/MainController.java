@@ -15,7 +15,7 @@ public class MainController {
 		ModelAndView mav = new ModelAndView();
 		mav.setViewName("main");
 		mav.addObject("message", Calendar.getInstance().getTime().toString());
-		mav.addObject("hi", "HI!");
+		mav.addObject("hi", "HI! Random stuff here :)");
 		return mav;
 	}
 }
